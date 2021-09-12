@@ -12,7 +12,7 @@ const initialState = {
   error: null,
 };
 
-const techReducer = (state = initialState, action) => {
+export const techReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_TECHS:
       return {
@@ -48,5 +48,3 @@ const techReducer = (state = initialState, action) => {
       return state;
   }
 };
-
-export default techReducer;

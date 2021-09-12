@@ -17,7 +17,7 @@ const initialState = {
   error: null,
 };
 
-const logReducer = (state = initialState, action) => {
+export const logReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_LOGS:
       return {
@@ -74,5 +74,3 @@ const logReducer = (state = initialState, action) => {
       return state;
   }
 };
-
-export default logReducer;
