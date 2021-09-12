@@ -1,54 +1,47 @@
 {
   "logs": [
     {
-      "message": "Changed network card in server 007",
+      "message": "Ajout de redux sur le projet MERN e-commerce",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2019-05-31T15:46:10.179Z",
+      "tech": "Oliver ",
+      "date": "2021-09-12T12:29:25.691Z",
       "id": 1
     },
     {
       "id": 2,
-      "message": "Fixed hard drive on workstation 002",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
-    },
-    {
-      "message": "1122 wireless down",
+      "message": "ajouter mongoDB",
       "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
+      "tech": "Oliver ",
+      "date": "2021-09-12T12:35:05.704Z"
     },
     {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
+      "message": "Ajout Firebase",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
+      "tech": "Emilie ",
+      "date": "2021-09-12T12:34:58.302Z",
+      "id": 3
     }
   ],
   "techs": [
     {
       "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
+      "firstName": "Oliver"
     },
     {
       "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
+      "firstName": "Emilie"
     },
     {
       "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
+      "firstName": "Alain"
     },
     {
-      "firstName": "Oliver",
-      "lastName": "Geiger",
+      "firstName": "Laurence",
       "id": 4
+    },
+    {
+      "firstName": "Moomo",
+      "id": 5
     }
   ]
 }
